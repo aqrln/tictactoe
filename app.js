@@ -1,9 +1,6 @@
 const config = require('./config'),
       server = require('./lib/server'),
-      staticFiles = require('./lib/static');
+      game   = require('./lib/game.js');
 
-server.register('/hello/<id>', (args, cb) => {
-  cb('Hello, ' + args.id + '!');
-});
-
+game.attach(server);
 server.listen(config);
