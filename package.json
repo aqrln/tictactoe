@@ -1,0 +1,17 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Orlenko <eaglexrlnk@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mime-types": "^2.1.11",
+    "websocket": "^1.0.23"
+  }
+}
